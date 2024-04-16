@@ -1,0 +1,81 @@
+/* Author: Ayoub bouazi */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
+.ej1,
+.ej2,
+.ej3,
+.ej4 {
+  margin: 20px 0;
+}
+.solu-ej1,
+.solu-ej2,
+.solu-ej3,
+.solu-ej4 {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0 0 5px #ccc;
+}
+.solu-ej2 input,
+.solu-ej3 input {
+  /* margin: 10px 0; */
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 3px;
+}
+.solu-ej2 button,
+.solu-ej3 button {
+  margin: 5px 0;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.solu-ej2 span,
+.solu-ej3 span {
+  color: red;
+}
+
+table {
+  width: 100%;
+}
+table th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.solu-ej4 input[type="date"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 70%;
+}
+.solu-ej4 button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}

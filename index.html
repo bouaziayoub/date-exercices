@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ejercicios basicos sobre el tema de date"
+    />
+    <meta name="keywords" content="Date, js, html, css" />
+    <meta name="author" content="Ayoub bouazi" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>DATE</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>DATE</h1>
+      </div>
+      <!-- 1.Realiza un script que escriba en el documento la fecha y hora actual. La
+  salida deberá tener elsiguiente formato:
+  Hoy es martes, 28 de Febrero de 2018 y son las 14:32 horas. -->
+      <div class=".ej1">
+        <div>
+          <h4>
+            1.Realiza un script que escriba en el documento la fecha y hora
+            actual. La salida deberá tener elsiguiente formato: Hoy es martes,
+            28 de Febrero de 2018 y son las 14:32 horas.
+          </h4>
+        </div>
+
+        <div class="solu-ej1"></div>
+      </div>
+
+      <!-- 2. Realiza un script que pida un nombre y dos apellidos e indique el tiempo
+  que se tardó en introducir los datos. La salida sería algo así como : En
+  introducir Luís Perez Alonso ha tardado 25 segundos. -->
+      <div class=".ej2">
+        <div>
+          <h4>
+            2. Realiza un script que pida un nombre y dos apellidos e indique el
+            tiempo que se tardó en introducir los datos. La salida sería algo
+            así como : En introducir Luís Perez Alonso ha tardado 25 segundos.
+          </h4>
+        </div>
+        <div class="solu-ej2">
+          <input
+            type="text"
+            id="name"
+            placeholder="Introduce tu nombre"
+          /><br />
+          <span class="errorName"></span><br />
+          <input
+            type="text"
+            id="surname1"
+            placeholder="Introduce tu apellido"
+          /><br />
+          <span class="errorSurname1"></span>
+          <br />
+          <input
+            type="text"
+            id="surname2"
+            placeholder="Introduce tu apellido"
+          />
+          <br />
+          <button id="btn">Enviar</button>
+        </div>
+      </div>
+
+      <!-- 3. Realiza un script pida un mes y año e imprima su calendario. No hace falta
+  esmerarse en la presentación del calendario, el calendario simplificado
+  puede ser del tipo: -->
+      <div class=".ej3">
+        <div>
+          <h4>
+            3. Realiza un script pida un mes y año e imprima su calendario. No
+            hace falta esmerarse en la presentación del calendario, el
+            calendario simplificado puede ser del tipo:
+          </h4>
+        </div>
+        <div class="solu-ej3">
+          <input type="text" id="month" placeholder="Introduce un mes" /> <br />
+          <span class="errorMonth"></span><br />
+          <input type="text" id="year" placeholder="Introduce un año" /> <br />
+          <span class="errorYear"></span><br />
+          <button id="btnCalander">Enviar</button>
+        </div>
+      </div>
+      <!-- 4. Realiza un script que pida una fecha y muestre tres fechas que sean la
+  fecha introducida a 30, 60 y 90 días.  -->
+      <div class=".ej4">
+        <div>
+          <h4>
+            4. Realiza un script que pida una fecha y muestre tres fechas que
+            sean la fecha introducida a 30, 60 y 90 días.
+          </h4>
+        </div>
+        <div class="solu-ej4">
+          <input type="date" id="date" /> <br /><br />
+          <button id="btnDate">Enviar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/ej1.js"></script>
+    <script src="./js/ej2.js"></script>
+    <script src="./js/ej3.js"></script>
+    <script src="./js/ej4.js"></script>
+  </body>
+</html>
