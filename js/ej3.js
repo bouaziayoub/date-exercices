@@ -39,7 +39,12 @@ monthEj3.addEventListener("input", () => {
 });
 // Validar que el año sea un número entre 1900 y 2100
 yearEj3.addEventListener("input", () => {
-  if (yearEj3.value < 1900 || yearEj3.value > 2100) {
+  if (
+    yearEj3.value < 1900 ||
+    yearEj3.value > 2100 ||
+    isNaN(yearEj3.value) ||
+    yearEj3.value === ""
+  ) {
     yearEj3.value = "";
     errorYear.innerHTML = "El año debe ser un número e  ntre 1900 y 2100";
   } else {
